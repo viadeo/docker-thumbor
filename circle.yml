@@ -3,4 +3,4 @@ machine:
     - docker
 test:
   post:
-    - ./tests.sh
+    - ./test.sh
