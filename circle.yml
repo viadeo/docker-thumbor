@@ -1,0 +1,6 @@
+machine:
+  services:
+    - docker
+test:
+  post:
+    - ./tests.sh
