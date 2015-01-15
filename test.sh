@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THUMBOR_IMAGE=thumbor
+THUMBOR_IMAGE=quay.io/viadeo/docker-thumbor
 THUMBOR_NAME=thumbor
 
 # Build images
