@@ -13,6 +13,9 @@ dependencies:
 test:
   pre:
     - docker build -t thumbor .
+  override:
+    - docker run --rm -p 8888:8888 --name=thumbor thumbor & sleep 1
+    - curl -s "http://localhost:8888/healthcheck" | grep "WORKING"
     
 deployment:
   demo:
