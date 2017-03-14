@@ -10,7 +10,7 @@ RUN apt-get install -y python-dev
 RUN apt-get install -y python-pip
 
 # Thumbor dependencies
-RUN apt-get install -y ffmpeg libjpeg-dev libpng-dev libtiff-dev libjasper-dev libgtk2.0-dev python-numpy python-pycurl webp python-opencv
+RUN apt-get install -y libjpeg-dev libpng-dev libtiff-dev libjasper-dev libgtk2.0-dev python-numpy python-pycurl webp python-opencv
 
 # Thumbor
 RUN pip install thumbor==4.8.5
