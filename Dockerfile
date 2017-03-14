@@ -1,4 +1,4 @@
-FROM google/debian:wheezy
+FROM google/debian:jessie
 
 RUN apt-get update
 RUN apt-get install -y wget
